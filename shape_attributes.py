@@ -5,11 +5,18 @@
 ## You can either set a value for pi or use the value from the math library
 r = 3
 import math
+pi = math.pi 
+
 ## Define your functions to calculate the attributes below:
 
 ### Area
 
+def area(rad):
+    print(rad*pi*pi)
+
 #### print your results here:
+
+#print(f"Area of circle with radius size {r} = {area(r):.2f}")
 #print(f"Area of circle with radius size {r} = {<name_of_function>(r):.2f}")
 #print(f"Area of sphere with radius size {r} = {<name_of_function>(r):.2f}")
 
