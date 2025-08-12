@@ -12,11 +12,10 @@ pi = math.pi
 ### Area
 
 def area(rad):
-    print(rad*pi*pi)
-
+    return rad*pi*pi
 #### print your results here:
 
-#print(f"Area of circle with radius size {r} = {area(r):.2f}")
+print(f"Area of circle with radius size {r} = {area(r)}")
 #print(f"Area of circle with radius size {r} = {<name_of_function>(r):.2f}")
 #print(f"Area of sphere with radius size {r} = {<name_of_function>(r):.2f}")
 
