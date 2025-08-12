@@ -21,13 +21,16 @@ print(f"Area of circle with radius size {r} = {area(r)}")
 
 ### Diameter
 
-
+def diam(rad):
+    return 2*rad
 #### print your results here:
 #print(f"Area of circle with radius size {r} = {<name_of_function>(r):.2f}")
 #print(f"Area of sphere with radius size {r} = {<name_of_function>(r):.2f}")
 
 ### Circumference
 
+def circ(rad):
+    return 2*pi*rad
 #### print your results here:
 #print(f"Area of circle with radius size {r} = {<name_of_function>(r):.2f}")
 #print(f"Area of sphere with radius size {r} = {<name_of_function>(r):.2f}")
